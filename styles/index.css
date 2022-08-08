@@ -1,0 +1,71 @@
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins-Bold.ttf");
+    font-weight: bold;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #D0CD94;
+}
+
+.container{
+    text-align: center;
+    margin-top: 300px;
+}
+
+.title{
+    color: #D56F3E;
+    margin-bottom: 20px;
+}
+
+.btn{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #3C787E;
+    width: 130px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    border: none;
+    transition: border-color 0.2s;
+}
+
+.btn:hover{
+    border: 2px solid #C7EF00;
+}
+
+.todo{
+    color: white;
+    margin-top: 20px;
+}
+
+.todo > button{
+    width: 130px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 5px;
+    background-color: #241623;
+}
+
+.js-input{
+    font-family: 'Poppins', sans-serif;
+    padding: 5px;
+    width: 200px;
+    height: 15px;
+    border-radius: 5px;
+    border: 2px solid #241623;
+}
